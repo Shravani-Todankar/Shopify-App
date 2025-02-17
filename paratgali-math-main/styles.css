@@ -2745,3 +2745,45 @@ img.parallax-slider-img {
 .box-2:hover .box-heading-2{
   opacity: 0;
 }
+
+/* Footer CSS */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #ffffff; /* White Background */
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #6b6b6b; /* Light gray text */
+}
+
+.footer-left, .footer-right {
+  margin: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-left, .footer-right {
+      margin-bottom: 5px;
+  }
+}
