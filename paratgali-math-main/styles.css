@@ -2715,3 +2715,30 @@ img.parallax-slider-img {
   color: #fff;
   margin: 5px 0;
 }
+
+.box-heading-1, .box-heading-2 {
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  bottom: -4%;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight:400;
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%);
+}
+
+.box-1:hover .box-heading-1{
+  opacity: 0;
+}
+
+.box-2:hover .box-heading-2{
+  opacity: 0;
+}
