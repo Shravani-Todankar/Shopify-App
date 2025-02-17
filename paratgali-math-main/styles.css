@@ -1540,22 +1540,25 @@ body {
   position: fixed;
   bottom: 10%;
   right: 2%;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(0 0 0 / 31%);
   border: 1px rgba(189.54, 189.54, 189.54, 0.30);
   /* Light grey with transparency */
   padding: 13px 30px;
   border-radius: 5px;
   /* Slightly more rounded corners */
-  color: #CCCCCC;
+  color: #ffffff;
   /* Light grey text color */
   font-size: 16px;
-  /* Slightly larger text for readability */
+  font-weight: 500;
   transition: opacity 0.3s ease-in-out;
-  /* Smooth transition for visibility */
   z-index: 1000;
   cursor: pointer;
 }
 
+span.skip-btn a{
+  text-decoration: none;
+  color: white;
+}
 
 .partagali-slider-container {
   min-height: 100vh;
