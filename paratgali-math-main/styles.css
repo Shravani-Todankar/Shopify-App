@@ -2767,7 +2767,7 @@ img.parallax-slider-img {
   align-items: center;
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  padding: 20px 20px;
   font-size: 14px;
   color: #6b6b6b; /* Light gray text */
 }
