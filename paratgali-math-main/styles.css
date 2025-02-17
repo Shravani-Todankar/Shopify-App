@@ -2650,11 +2650,11 @@ img.parallax-slider-img {
 }
 
 .gfx-wrapper:hover .box-1 {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .gfx-wrapper-2:hover .box-2 {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .gfx-wrapper:hover .box-1:hover {
