@@ -2321,6 +2321,7 @@ transform: translateY(0);
 .parallax-container {
 	width: 100%;
   background-color:#0B1D26;
+padding-top: 70px;
 }
 
 #parallax-slider {
