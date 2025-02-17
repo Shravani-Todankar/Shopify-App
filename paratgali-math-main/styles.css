@@ -646,7 +646,7 @@ display: inline-block; /* Ensures the title has proper positioning */
 padding-left: 20px;  /* Adds space between the line and the text */
 }
 
-.second-timeline-section .second-timeline-title::before
+.second-timeline-section .second-timeline-title::before,
 .fourth-timeline-section .second-timeline-title::before {
 content: '';
 position: absolute;
