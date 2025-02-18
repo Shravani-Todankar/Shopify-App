@@ -858,12 +858,12 @@ body {
 }
 
 .section-main-title {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   font-weight: 500;
   margin: 0;
   line-height: 1.2;
   max-width: 450px;
-  font-family: 'MyFont', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
   color: #FCFCFC;
 }
 
@@ -1610,12 +1610,12 @@ span.skip-btn a {
 }
 
 .section-main-title {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   font-weight: 500;
   margin: 0;
   line-height: 1.2;
   max-width: 450px;
-  font-family: 'MyFont', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .section-slider-description {
